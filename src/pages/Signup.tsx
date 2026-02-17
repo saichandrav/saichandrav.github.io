@@ -16,7 +16,7 @@ const Signup = () => {
     event.preventDefault();
     try {
       await signup(name, email, password);
-      toast("Account created", { description: "Welcome to Aurelia." });
+      toast("Account created", { description: "Welcome to Ratnamayuri." });
       navigate(redirectTo);
     } catch (error) {
       toast("Signup failed", { description: error instanceof Error ? error.message : "Try again" });
@@ -27,7 +27,7 @@ const Signup = () => {
     <main className="min-h-screen px-4 py-10 sm:py-14">
       <div className="mx-auto w-full max-w-md">
         <div className="mb-6 text-center">
-          <p className="text-xs uppercase tracking-[0.3em] text-muted-foreground">Aurelia</p>
+          <p className="text-xs uppercase tracking-[0.3em] text-muted-foreground">Ratnamayuri</p>
           <h1 className="mt-3 text-3xl font-heading font-semibold text-foreground">Create account</h1>
           <p className="mt-2 text-sm text-muted-foreground">Join to save favorites and checkout faster.</p>
         </div>

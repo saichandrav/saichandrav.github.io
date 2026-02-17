@@ -26,7 +26,7 @@ const Login = () => {
         <main className="min-h-screen px-4 py-10 sm:py-14">
             <div className="mx-auto w-full max-w-md ">
                 <div className="mb-6 text-center">
-                    <p className="text-xs uppercase tracking-[0.3em] text-muted-foreground">Aurelia</p>
+                    <p className="text-xs uppercase tracking-[0.3em] text-muted-foreground">Ratnamayuri</p>
                     <h1 className="mt-3 text-3xl font-heading font-semibold text-foreground">Welcome back</h1>
                     <p className="mt-2 text-sm text-muted-foreground">Sign in to continue shopping timeless pieces.</p>
                 </div>
@@ -69,9 +69,9 @@ const Login = () => {
                         </div>
 
                         <div className="rounded-xl border border-border/70 bg-secondary/40 px-4 py-3 text-xs text-muted-foreground">
-                            Demo seller: seller@aurelia.demo · Password: Seller@123
+                            Demo seller: seller@ratnamayuri.demo · Password: Seller@123
                             <br />
-                            Demo admin: admin@aurelia.demo · Password: Admin@123
+                            Demo admin: admin@ratnamayuri.demo · Password: Admin@123
                         </div>
 
                         <button
